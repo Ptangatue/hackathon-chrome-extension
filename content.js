@@ -1,4 +1,4 @@
-// document.addEventListener('DOMContentLoaded', () => {
+//chrome.runtime.onInstalled.addListener( () => {
 const text = document.createElement('p');
 text.innerText = 'Array: \n For Loop:';
 text.style.color = 'white';
@@ -15,4 +15,4 @@ document.querySelector('body').appendChild(text);
 //   '.unit-progress text-right col-xs-12 p'
 // ).innerText;
 // console.log(value);
-// });
+//});
